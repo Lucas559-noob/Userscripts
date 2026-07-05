@@ -1,17 +1,15 @@
 // ==UserScript==
 // @name         GOG + GOGDB → Torrminatorr Search
-// @namespace    http://tampermonkey.net/
-// @version      1.0
-// @description  Adds a Torrminatorr search link on GOG.com and GOGDB game pages
-// @author       You
+// @namespace    https://github.com/Lucas559-noob/Userscripts
+// @version      1.1
+// @description  Adds a Torrminatorr search button on GOG.com and GOGDB game pages
+// @author       Lucas559-noob
 // @match        https://www.gog.com/game/*
 // @match        https://www.gog.com/*/game/*
 // @match        https://www.gogdb.org/product/*
 // @icon         https://forum.torrminatorr.com/styles/torrminatorr/theme/images/site_logo.png
 // @license      GPL-3.0-or-later
 // @grant        none
-// @downloadURL https://update.greasyfork.org/scripts/583677/GOG%20%2B%20GOGDB%20%E2%86%92%20Torrminatorr%20Search.user.js
-// @updateURL https://update.greasyfork.org/scripts/583677/GOG%20%2B%20GOGDB%20%E2%86%92%20Torrminatorr%20Search.meta.js
 // ==/UserScript==
 
 (function() {
