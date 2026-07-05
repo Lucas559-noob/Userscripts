@@ -176,9 +176,11 @@
     }
 
     const host = window.location.hostname;
-    if (host.includes('gog.com')) {
+    const isGogHost = host === 'gog.com' || host.endsWith('.gog.com');
+    const isGogdbHost = host === 'gogdb.org' || host.endsWith('.gogdb.org');
+    if (isGogHost) {
         initGog();
-    } else if (host.includes('gogdb.org')) {
+    } else if (isGogdbHost) {
         initGogdb();
     }
 })();
